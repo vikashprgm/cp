@@ -89,5 +89,4 @@ freopen("output.txt", "w", stdout);
     Node* head= convert(arr);
     head = removeKth(head,2);
     print(head);
-return 0;
 }

@@ -1,4 +1,3 @@
-#include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
 #define fo(n) for(int i=0;i<n;i++)
@@ -7,7 +6,6 @@ typedef long long ll;
 typedef vector<int> vi;
 typedef vector<ll> vll;
 typedef pair<int, int> pint;
-#include<algorithm>
 
 int main(){
 ios::sync_with_stdio(0);

@@ -12,10 +12,14 @@ typedef pair<int, int> pint;
 int main(){
 ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
-    int tt;
-    cin>>tt;
-    while(tt--){
-        
-        
+    int n;
+    cin>>n;
+    vi a(n);
+    fo(n) cin>>a[i];
+    sort(a.begin(),a.end());
+    long sum=0;
+    fo(n/2){
+        sum+=pow((a[i]+a[n-i-1]),2);
     }
+    cout<<sum;
 }
