@@ -1,4 +1,6 @@
 //author-v1kash
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx2")
 #include<bits/stdc++.h>
 using namespace std;
 #define fo(n) for(int i=0;i<n;i++)
